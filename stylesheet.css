@@ -23,21 +23,18 @@ main {
   position: relative;
 }
 .box-image {
-  width: 280px;
   height: 150px;
   background-image: url(img/flow01.png);
   background-size: cover;
   background-position: center;
 }
 .box-image2 {
-  width: 280px;
   height: 150px;
   background-image: url(img/flow02.png);
   background-size: cover;
   background-position: center;
 }
 .box-image3 {
-  width: 280px;
   height: 150px;
   background-image: url(img/flow03.png);
   background-size: cover;
@@ -50,6 +47,9 @@ main {
   position: absolute;
   top: 0;
   left: 0;
+}
+.box:last-child {
+  margin-right: 0;
 }
 .box-header {
   margin-top: 15px;
@@ -71,5 +71,6 @@ main {
   }
 }
 .box:last-child {
+  margin: 0 auto;
   margin-bottom: 0;
 }
